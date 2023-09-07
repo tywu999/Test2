@@ -8,5 +8,13 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         String favfood = new String("Tomatoes");
         System.out.println(favfood);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter your age:");
+        int niger = scanner.nextInt();
+        System.out.println("How many days are in a year?");
+        int days = scanner.nextInt();
+        int total = niger*days*24*60*60;
+        System.out.println("This is the amount of seconds you've been alive:  " +total);
     }
 }
