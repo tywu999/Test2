@@ -6,5 +6,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         Scanner scan = new Scanner(System.in);
+        String favfood = new String("Tomatoes");
+        System.out.println(favfood);
     }
 }
